@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, 
 
@@ -8,5 +8,5 @@
 
 ТЕКУЩИЙ СКЛАДСКОЙ ЗАПАС: {current_coverage} 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

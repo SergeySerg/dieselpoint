@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{cashondelivery}prestashop>validation_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Доставка';
-$_MODULE['<{cashondelivery}prestashop>validation_f1d3b424cd68795ecaa552883759aceb'] = 'Сводка по заказу';
+$_MODULE['<{cashondelivery}prestashop>validation_f1d3b424cd68795ecaa552883759aceb'] = 'Информация о заказе';
 $_MODULE['<{cashondelivery}prestashop>validation_d538c5b86e9a71455ba27412f4e9ab51'] = 'Оплата наличными при получении';
 $_MODULE['<{cashondelivery}prestashop>validation_ad2f6328c24caa7d25dd34bfc3e7e25a'] = 'Вы выбрали оплату наличными при получении.';
 $_MODULE['<{cashondelivery}prestashop>validation_e2867a925cba382f1436d1834bb52a1c'] = 'Общая сумма вашего заказа';

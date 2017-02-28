@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, {firstname} {lastname}, 
 
@@ -18,5 +18,5 @@
 Вы можете войти в учётную запись в
 нашем магазине: {shop_url} 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

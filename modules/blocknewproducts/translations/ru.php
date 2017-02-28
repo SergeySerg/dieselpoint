@@ -9,7 +9,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4a
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = 'Неверный номер.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = 'Настройки обновлены';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_26986c3388870d4148b1b5375368a83d'] = 'Отображать товаров';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_26986c3388870d4148b1b5375368a83d'] = 'Число отображаемых товаров';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_3ea7689283770958661c27c37275b89c'] = 'Установите количество товаров, отображаемых в этом блоке.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_85dd6b2059e1ff8fbefcc9cf6e240933'] = 'Количество дней на протяжении которых товар считается \'новым\'';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_24ff4e4d39bb7811f6bdf0c189462272'] = 'Всегда отображать блок';

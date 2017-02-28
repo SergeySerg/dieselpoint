@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, {firstname} {lastname}, 
 
@@ -9,5 +9,5 @@
 
 {employee} добавил "{comment}" 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

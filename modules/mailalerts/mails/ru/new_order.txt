@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Поздравляем! 
 
@@ -55,5 +55,5 @@
 
 {message} 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

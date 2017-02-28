@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, {firstname} {lastname}, 
 
@@ -11,5 +11,5 @@
 Панели управления "ИНСТРУМЕНТЫ" >
 "ЖУРНАЛЫ". 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

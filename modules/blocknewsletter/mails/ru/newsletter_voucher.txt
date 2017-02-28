@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, 
 
@@ -7,5 +7,5 @@
 рассылку, мы рады предложить Вам этот
 купон: {discount} 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

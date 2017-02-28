@@ -7,13 +7,13 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56
 $_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = 'Добавляет блок с таблицей последних заказов и рейтингом товаров';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'Имя клиента';
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = 'Товары';
-$_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'Итого';
+$_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'Итого, к оплате:';
 $_MODULE['<{dashproducts}prestashop>dashproducts_58ef6750a23ba432fc1377b7de085d9f'] = 'Без НДС';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'Дата';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Статус';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Подробности';
 $_MODULE['<{dashproducts}prestashop>dashproducts_be53a0541a6d36f6ecb879fa2c584b08'] = 'Изображение';
-$_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553f'] = 'Товар';
+$_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553f'] = 'товар';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Категория';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2aed3d711270a6ed67d21ec2d7cd4af8'] = 'Всего продано';
 $_MODULE['<{dashproducts}prestashop>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продажи';

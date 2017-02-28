@@ -1,12 +1,12 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, 
 
 {firstname} {lastname} разрешил вам видеть
 его/ее список покупок: {wishlist}
 
-{wishlist} [/{message}] 		 
+{wishlist} [{message}] 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

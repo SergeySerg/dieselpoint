@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, 
 
@@ -7,7 +7,7 @@
 пожалуйста, подтвердите свой запрос,
 нажав на ссылку ниже:
 
-{verif_url} [/{verif_url}] 		 
+{verif_url} [{verif_url}] 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

@@ -8,7 +8,7 @@ $_MODULE['<{blockstore}prestashop>blockstore_c1104fe0bdaceb2e1c6f77b04977b64b'] 
 $_MODULE['<{blockstore}prestashop>blockstore_b786bfc116ecf9a6d47ce1114ca6abb7'] = 'Этот модуль должен быть закреплен в колонке, но ваш шаблон eе не предоставляет.';
 $_MODULE['<{blockstore}prestashop>blockstore_7107f6f679c8d8b21ef6fce56fef4b93'] = 'Неверное изображение.';
 $_MODULE['<{blockstore}prestashop>blockstore_df7859ac16e724c9b1fba0a364503d72'] = 'Ошибка при загрузке файла.';
-$_MODULE['<{blockstore}prestashop>blockstore_efc226b17e0532afff43be870bff0de7'] = 'Настройки обновлены.';
+$_MODULE['<{blockstore}prestashop>blockstore_efc226b17e0532afff43be870bff0de7'] = 'Настройки обновлены';
 $_MODULE['<{blockstore}prestashop>blockstore_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
 $_MODULE['<{blockstore}prestashop>blockstore_4d100d8b1b9bcb5a376f78365340cdbe'] = 'Изображение блока "Адреса магазинов"';
 $_MODULE['<{blockstore}prestashop>blockstore_a34202cc413553fe0fe2d46f706db435'] = 'Текст блока "Адреса магазинов"';

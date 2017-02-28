@@ -9,7 +9,7 @@ $_MODULE['<{dashtrends}prestashop>dashtrends_2d125dc25b158f28a1960bd96a9fa8d1'] 
 $_MODULE['<{dashtrends}prestashop>dashtrends_887ee91702c962a70b87cbef07bbcaec'] = 'Без НДС';
 $_MODULE['<{dashtrends}prestashop>dashtrends_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продажи';
 $_MODULE['<{dashtrends}prestashop>dashtrends_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Заказы';
-$_MODULE['<{dashtrends}prestashop>dashtrends_8c804960da61b637c548c951652b0cac'] = 'Средняя сумма корзины';
+$_MODULE['<{dashtrends}prestashop>dashtrends_8c804960da61b637c548c951652b0cac'] = 'Средняя корзина';
 $_MODULE['<{dashtrends}prestashop>dashtrends_d7e637a6e9ff116de2fa89551240a94d'] = 'Посещений';
 $_MODULE['<{dashtrends}prestashop>dashtrends_e4c3da18c66c0147144767efeb59198f'] = 'Конверсия';
 $_MODULE['<{dashtrends}prestashop>dashtrends_43d729c7b81bfa5fc10e756660d877d1'] = 'Чистая прибыль';

@@ -1,11 +1,11 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Поздравляем! 
 
 Ваш спонсируемый друг {sponsored_firstname}
 {sponsored_lastname} совершил свой первый заказ
-в магазине {shop_name} [/{shop_url}]!
+в магазине {shop_name} [{shop_url}]!
 
 Мы рады предложить вам купон
 достоинством {discount_display} (КУПОН №
@@ -14,5 +14,5 @@
 
 С наилучшими пожеланиями, 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

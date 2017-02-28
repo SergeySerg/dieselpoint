@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, {firstname} {lastname}, 
 
@@ -10,5 +10,5 @@
 
 {message} 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

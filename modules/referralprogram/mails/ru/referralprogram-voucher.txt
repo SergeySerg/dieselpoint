@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, {firstname} {lastname}, 
 
@@ -12,5 +12,5 @@
 Просто скопируйте / вставьте этот код
 при оплате вашего следующего заказа. 		
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, 
 
@@ -8,7 +8,7 @@
 они могли видеть ваш список покупок:
 {wishlist}
 
-{message} [/{message}] 		 
+{message} [{message}] 		 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

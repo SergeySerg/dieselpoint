@@ -1,10 +1,10 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, 
 
 СПАСИБО ЗА ПОДПИСКУ НА НАШУ
 РАССЫЛКУ. 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 

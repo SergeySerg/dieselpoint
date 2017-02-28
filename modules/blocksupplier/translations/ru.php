@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_9ae42413e3cb9596efe3857f75bad3df'] = 'Блок поставщиков';
-$_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2590'] = 'Добавляет блок, отображающий поставщиков ваших товаров.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2590'] = 'Добавляет блок, отображающий поставщиков вашего продукта.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_85ab0c0d250e58397e95c96277a3f8e3'] = 'Неверное количество элементов.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_914b0cd4e4aa7cba84a3fd47b880fd2a'] = 'Пожалуйста, включите по крайней мере один тип списка.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f38f5974cdc23279ffe6d203641a8bdf'] = 'Настройки обновлены.';

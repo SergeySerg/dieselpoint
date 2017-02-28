@@ -36,7 +36,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_c9cc8cce247e49bae79f15173
 $_MODULE['<{productcomments}prestashop>productcomments_2ec265696a51530949d345239069f0d4'] = 'Обзоры, ожидающие одобрения';
 $_MODULE['<{productcomments}prestashop>productcomments_655d20c1ca69519ca647684edbb2db35'] = 'Высокая';
 $_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Средняя';
-$_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Низкий';
+$_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'низкий';
 $_MODULE['<{productcomments}prestashop>productcomments_eb7d6baeb8bbf339547da7e0d6c5e416'] = 'Сообщенные обзоры';
 $_MODULE['<{productcomments}prestashop>productcomments_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = 'Имя';
@@ -49,7 +49,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_f8a0aa69f5ce41287f02c2d18
 $_MODULE['<{productcomments}prestashop>productcomments_457dd55184faedb7885afd4009d70163'] = 'Обзор';
 $_MODULE['<{productcomments}prestashop>productcomments_dda9c06f33071c9b6fc237ee164109d8'] = 'Рейтинг';
 $_MODULE['<{productcomments}prestashop>productcomments_a517747c3d12f99244ae598910d979c5'] = 'Автор';
-$_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = 'Товар';
+$_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = 'товар';
 $_MODULE['<{productcomments}prestashop>productcomments_0f46dacf1a6ecab8ce1cb97250bb8113'] = 'Время публикации';
 $_MODULE['<{productcomments}prestashop>productcomments_f3d8e91894baa7ee67e0649abcc092ff'] = 'Критерий будет ограничен следующими категориями';
 $_MODULE['<{productcomments}prestashop>productcomments_d3dc571a8be516766c8124a636290fd9'] = 'Проставьте флажки у категорий, к которым применяется критерий.';

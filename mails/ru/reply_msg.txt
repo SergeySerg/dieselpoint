@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Здравствуйте, {firstname} {lastname}, 
 
@@ -9,7 +9,7 @@
 его не получим. 
 
 Чтобы написать ответ, используйте
-ссылку: {link} [/{link}] 
+ссылку: {link} [{link}] 
 
-{shop_name} [/{shop_url}] 
+{shop_name} [{shop_url}] 
 
