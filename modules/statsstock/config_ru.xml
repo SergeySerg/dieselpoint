@@ -2,7 +2,7 @@
 <module>
 	<name>statsstock</name>
 	<displayName><![CDATA[Доступное количество]]></displayName>
-	<version><![CDATA[1.5.0]]></version>
+	<version><![CDATA[1.6.0]]></version>
 	<description><![CDATA[На пульт статистики добавляется вкладка, показывающая количество имеющегося товара для продажи.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

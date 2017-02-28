@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 16:25:05
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 18:23:05
          compiled from "E:\Webserver\domains\dieselpoint.loc\admin870x9da7l\themes\default\template\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1099358b588414cf996-09723387%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9479524e4f06051e3d65720954c1d673ef4df0fc' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\admin870x9da7l\\themes\\default\\template\\header.tpl',
-      1 => 1482153420,
+      1 => 1488298983,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58b588418ffe75_30819350',
   'variables' => 
   array (
     'iso' => 0,
@@ -46,11 +48,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'display_header' => 0,
     'employee' => 0,
     'collapse_menu' => 0,
-    'default_tab_link' => 0,
-    'version' => 0,
     'is_multishop' => 0,
     'shop_list' => 0,
     'multishop_context' => 0,
+    'default_tab_link' => 0,
     'show_new_orders' => 0,
     'show_new_customers' => 0,
     'show_new_messages' => 0,
@@ -74,8 +75,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'lite_display' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b588418ffe75_30819350',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58b588418ffe75_30819350')) {function content_58b588418ffe75_30819350($_smarty_tpl) {?>
 <!DOCTYPE html>
@@ -236,11 +235,7 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 				<button id="header_nav_toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-primary">
 					<i class="icon-reorder"></i>
 				</button>
-				<a id="header_shopversion" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['default_tab_link']->value, ENT_QUOTES, 'UTF-8', true);?>
-">
-					<span id="shop_version"><?php echo $_smarty_tpl->tpl_vars['version']->value;?>
-</span>
-				</a>
+				
 				
 				<?php if (isset($_smarty_tpl->tpl_vars['is_multishop']->value)&&$_smarty_tpl->tpl_vars['is_multishop']->value&&$_smarty_tpl->tpl_vars['shop_list']->value&&(isset($_smarty_tpl->tpl_vars['multishop_context']->value)&&$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_GROUP||$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_SHOP)) {?>
 					<ul id="header_shop">
@@ -287,33 +282,7 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 <?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_customers']->value;?>
 <?php $_tmp2=ob_get_clean();?><?php if ($_tmp2==1) {?>
-					<li id="customers_notif" class="dropdown" data-type="customer">
-						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
-							<i class="icon-user"></i>
-							<span id="customers_notif_number_wrapper" class="notifs_badge hide">
-								<span id="customers_notif_value">0</span>
-							</span>
-						</a>
-						<div class="dropdown-menu notifs_dropdown">
-							<section id="customers_notif_wrapper" class="notifs_panel">
-								<div class="notifs_panel_header">
-									<h3><?php echo smartyTranslate(array('s'=>'Latest Registrations'),$_smarty_tpl);?>
-</h3>
-								</div>
-								<div id="list_customers_notif" class="list_notif">
-									<span class="no_notifs">
-										<?php echo smartyTranslate(array('s'=>'No new customers have registered on your shop.'),$_smarty_tpl);?>
-
-									</span>
-								</div>
-								<div class="notifs_panel_footer">
-									<a href="index.php?controller=AdminCustomers&amp;token=<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['getAdminToken'][0][0]->getAdminTokenLiteSmarty(array('tab'=>'AdminCustomers'),$_smarty_tpl);?>
-"><?php echo smartyTranslate(array('s'=>'Show all customers'),$_smarty_tpl);?>
-</a>
-								</div>
-							</section>
-						</div>
-					</li>
+					
 <?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_messages']->value;?>
 <?php $_tmp3=ob_get_clean();?><?php if ($_tmp3==1) {?>
@@ -450,16 +419,7 @@ $_smarty_tpl->tpl_vars['quick']->_loop = true;
 <?php }?>
 				<ul id="header_employee_box">
 					<?php if ((!isset($_smarty_tpl->tpl_vars['logged_on_addons']->value)||!$_smarty_tpl->tpl_vars['logged_on_addons']->value)&&(isset($_smarty_tpl->tpl_vars['display_addons_connection']->value)&&$_smarty_tpl->tpl_vars['display_addons_connection']->value)) {?>
-						<li class="hidden-sm hidden-xs">
-							<a href="#" class="addons_connect toolbar_btn" data-toggle="modal" data-target="#modal_addons_connect" title="<?php echo smartyTranslate(array('s'=>'Connect to PrestaShop Marketplace account'),$_smarty_tpl);?>
-">
-								<i class="icon-chain-broken"></i>
-								<span class="string-long"><?php echo smartyTranslate(array('s'=>'Connect to PrestaShop Marketplace account'),$_smarty_tpl);?>
-</span>
-								<span class="string-short"><?php echo smartyTranslate(array('s'=>'PrestaShop Marketplace'),$_smarty_tpl);?>
-</span>
-							</a>
-						</li>
+						
 					<?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
 <?php $_tmp5=ob_get_clean();?><?php if ($_tmp5) {?>

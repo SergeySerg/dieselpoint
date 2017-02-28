@@ -2,7 +2,7 @@
 <module>
 	<name>statsforecast</name>
 	<displayName><![CDATA[Панель статистики]]></displayName>
-	<version><![CDATA[1.4.0]]></version>
+	<version><![CDATA[1.4.1]]></version>
 	<description><![CDATA[Это основной модуль панели статистики. Он отображает сводку по всем вашии статистическим данным.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

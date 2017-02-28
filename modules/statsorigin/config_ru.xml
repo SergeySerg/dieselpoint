@@ -2,7 +2,7 @@
 <module>
 	<name>statsorigin</name>
 	<displayName><![CDATA[Источники посетителей]]></displayName>
-	<version><![CDATA[1.4.0]]></version>
+	<version><![CDATA[1.4.1]]></version>
 	<description><![CDATA[На панель статистики добавляется график, показывающий с каких сайтов пришли ваши посетители.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

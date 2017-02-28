@@ -2,7 +2,7 @@
 <module>
 	<name>statsdata</name>
 	<displayName><![CDATA[Обработка данных статистики]]></displayName>
-	<version><![CDATA[1.6.1]]></version>
+	<version><![CDATA[1.6.2]]></version>
 	<description><![CDATA[Для использования статистики включите этот модуль.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

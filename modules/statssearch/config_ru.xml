@@ -2,7 +2,7 @@
 <module>
 	<name>statssearch</name>
 	<displayName><![CDATA[Поиск по магазину]]></displayName>
-	<version><![CDATA[1.4.0]]></version>
+	<version><![CDATA[1.4.1]]></version>
 	<description><![CDATA[На панель статистики добавляется вкладка, показывающая какие ключевые слова ищут посетители вашего магазина.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 16:21:36
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 17:47:31
          compiled from "E:\Webserver\domains\dieselpoint.loc\admin870x9da7l\themes\default\template\controllers\login\content.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:739058b58770841844-33256167%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd2bb9b1269ad1c15b53bdaddf0474d276e34e2a8' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\admin870x9da7l\\themes\\default\\template\\controllers\\login\\content.tpl',
-      1 => 1482153420,
+      1 => 1488296846,
       2 => 'file',
     ),
   ),
@@ -15,15 +15,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58b587708f14c7_83328941',
   'variables' => 
   array (
-    'img_dir' => 0,
-    'ps_version' => 0,
+    'shop_name' => 0,
     'errors' => 0,
     'nbErrors' => 0,
     'error' => 0,
     'warningSslMessage' => 0,
-    'shop_name' => 0,
+    'img_dir' => 0,
     'wrong_folder_name' => 0,
     'wrong_install_name' => 0,
     'redirect' => 0,
@@ -33,56 +34,55 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'adminUrl' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b587708f14c7_83328941',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58b587708f14c7_83328941')) {function content_58b587708f14c7_83328941($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\Webserver\\domains\\dieselpoint.loc\\tools\\smarty\\plugins\\modifier.date_format.php';
 ?>
+
 <div id="login-panel">
 	<div id="login-header">
-		<h1 class="text-center">
-			<img id="logo" src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
-prestashop@2x.png" width="123px" height="24px" alt="PrestaShop" />
-		</h1>
-		<div class="text-center"><?php echo $_smarty_tpl->tpl_vars['ps_version']->value;?>
-</div>
+
+		<H1 class="text-center"><?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
+</H1>
+		<hr>
+		<H4 class="text-center">Admin Panel</h4>
+		<hr>
 		<div id="error" class="hide alert alert-danger">
-		<?php if (isset($_smarty_tpl->tpl_vars['errors']->value)) {?>
-			<h4>
-				<?php if (isset($_smarty_tpl->tpl_vars['nbErrors']->value)&&$_smarty_tpl->tpl_vars['nbErrors']->value>1) {?>
-					<?php echo smartyTranslate(array('s'=>'There are %d errors.','sprintf'=>$_smarty_tpl->tpl_vars['nbErrors']->value),$_smarty_tpl);?>
+			<?php if (isset($_smarty_tpl->tpl_vars['errors']->value)) {?>
+				<h4>
+					<?php if (isset($_smarty_tpl->tpl_vars['nbErrors']->value)&&$_smarty_tpl->tpl_vars['nbErrors']->value>1) {?>
+						<?php echo smartyTranslate(array('s'=>'There are %d errors.','sprintf'=>$_smarty_tpl->tpl_vars['nbErrors']->value),$_smarty_tpl);?>
 
-				<?php } else { ?>
-					<?php echo smartyTranslate(array('s'=>'There is %d error.','sprintf'=>$_smarty_tpl->tpl_vars['nbErrors']->value),$_smarty_tpl);?>
+					<?php } else { ?>
+						<?php echo smartyTranslate(array('s'=>'There is %d error.','sprintf'=>$_smarty_tpl->tpl_vars['nbErrors']->value),$_smarty_tpl);?>
 
-				<?php }?>
-			</h4>
-			<ol>
-				<?php  $_smarty_tpl->tpl_vars["error"] = new Smarty_Variable; $_smarty_tpl->tpl_vars["error"]->_loop = false;
+					<?php }?>
+				</h4>
+				<ol>
+					<?php  $_smarty_tpl->tpl_vars["error"] = new Smarty_Variable; $_smarty_tpl->tpl_vars["error"]->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['errors']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars["error"]->key => $_smarty_tpl->tpl_vars["error"]->value) {
 $_smarty_tpl->tpl_vars["error"]->_loop = true;
 ?>
-				<li><?php echo $_smarty_tpl->tpl_vars['error']->value;?>
+						<li><?php echo $_smarty_tpl->tpl_vars['error']->value;?>
 </li>
-				<?php } ?>
-			</ol>
-		<?php }?>
+					<?php } ?>
+				</ol>
+			<?php }?>
 		</div>
 
 		<?php if (isset($_smarty_tpl->tpl_vars['warningSslMessage']->value)) {?>
-		<div class="alert alert-warning"><?php echo $_smarty_tpl->tpl_vars['warningSslMessage']->value;?>
+			<div class="alert alert-warning"><?php echo $_smarty_tpl->tpl_vars['warningSslMessage']->value;?>
 </div>
 		<?php }?>
 	</div>
-	<div id="shop-img"><img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
-preston-login@2x.png" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
-" width="69.5px" height="118.5px" /></div>
+	<!--<div id="shop-img"><img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
+truck.png" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
+" width="69.5px" height="118.5px" /></div>-->
 	<div class="flip-container">
 		<div class="flipper">
 			<div class="front panel">
-				<h4 id="shop_name"><?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
-</h4>
+				<!--<h4 id="shop_name"><?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
+</h4>-->
 				<?php if (!isset($_smarty_tpl->tpl_vars['wrong_folder_name']->value)&&!isset($_smarty_tpl->tpl_vars['wrong_install_name']->value)) {?>
 				<form action="#" id="login_form" method="post">
 					<input type="hidden" name="redirect" id="redirect" value="<?php echo $_smarty_tpl->tpl_vars['redirect']->value;?>
@@ -182,6 +182,7 @@ preston-login@2x.png" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value
 	</div>
 	<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayAdminLogin"),$_smarty_tpl);?>
 
+	<!--Соцсети
 	<div id="login-footer">
 		<p class="text-center text-muted">
 			<a href="http://www.prestashop.com/" onclick="return !window.open(this.href);">
@@ -203,6 +204,6 @@ preston-login@2x.png" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value
 				<i class="icon-google-plus"></i>
 			</a>
 		</p>
-	</div>
+	</div>-->
 </div>
 <?php }} ?>
