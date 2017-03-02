@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 16:59:43
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:39:07
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:584358b5905f594ba4-91101527%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1787458b882eb8a9f41-18953788%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '23a302e9a6337b841503f4266af9d66f34266b29' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\footer.tpl',
-      1 => 1488293792,
+      1 => 1488468061,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '584358b5905f594ba4-91101527',
+  'nocache_hash' => '1787458b882eb8a9f41-18953788',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b5905f5bf187_08976284',
+  'unifunc' => 'content_58b882eb8d18f9_55548816',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b5905f5bf187_08976284')) {function content_58b5905f5bf187_08976284($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58b882eb8d18f9_55548816')) {function content_58b882eb8d18f9_55548816($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
 					<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
@@ -49,6 +49,29 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</div><!-- #page -->
 <?php }?>
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./global.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<!-- Start SiteHeart code -->
+
+	<script>
+		(function(){
+			var widget_id = 868866;
+			_shcp =[{widget_id : widget_id}];
+			var lang =(navigator.language || navigator.systemLanguage
+			|| navigator.userLanguage ||"en")
+					.substr(0,2).toLowerCase();
+			var url ="widget.siteheart.com/widget/sh/"+ widget_id +"/"+ lang +"/widget.js";
+			var hcc = document.createElement("script");
+			hcc.type ="text/javascript";
+			hcc.async =true;
+			hcc.src =("https:"== document.location.protocol ?"https":"http")
+					+"://"+ url;
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hcc, s.nextSibling);
+		})();
+	</script>
+
+<script type="text/javascript" src="/buyme/js/buyme.js"></script>
+<!-- End SiteHeart code -->
 
 	</body>
 </html><?php }} ?>

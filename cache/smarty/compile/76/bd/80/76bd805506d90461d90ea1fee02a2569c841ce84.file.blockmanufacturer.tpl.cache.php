@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 18:08:09
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:41:17
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\modules\blockmanufacturer\blockmanufacturer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2159458b5a0699388f4-49994189%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2364558b8836d92dec8-53894617%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '76bd805506d90461d90ea1fee02a2569c841ce84' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\modules\\blockmanufacturer\\blockmanufacturer.tpl',
-      1 => 1488293792,
+      1 => 1488377369,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2159458b5a0699388f4-49994189',
+  'nocache_hash' => '2364558b8836d92dec8-53894617',
   'function' => 
   array (
   ),
@@ -23,13 +23,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'text_list' => 0,
     'text_list_nb' => 0,
     'manufacturer' => 0,
-    'form_list' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b5a0699c7325_09882799',
+  'unifunc' => 'content_58b8836db31821_49346680',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b5a0699c7325_09882799')) {function content_58b5a0699c7325_09882799($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58b8836db31821_49346680')) {function content_58b8836db31821_49346680($_smarty_tpl) {?>
 
 <!-- Block manufacturers module -->
 <div id="manufacturers_block_left" class="block blockmanufacturer">
@@ -79,26 +78,7 @@ $_smarty_tpl->tpl_vars['manufacturer']->_loop = true;
 				<?php } ?>
 			</ul>
 			<?php }?>
-			<?php if ($_smarty_tpl->tpl_vars['form_list']->value) {?>
-				<form action="<?php echo htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8', true);?>
-" method="get">
-					<div class="form-group selector1">
-						<select class="form-control" name="manufacturer_list">
-							<option value="0"><?php echo smartyTranslate(array('s'=>'All manufacturers','mod'=>'blockmanufacturer'),$_smarty_tpl);?>
-</option>
-						<?php  $_smarty_tpl->tpl_vars['manufacturer'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['manufacturer']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['manufacturers']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['manufacturer']->key => $_smarty_tpl->tpl_vars['manufacturer']->value) {
-$_smarty_tpl->tpl_vars['manufacturer']->_loop = true;
-?>
-							<option value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getmanufacturerLink($_smarty_tpl->tpl_vars['manufacturer']->value['id_manufacturer'],$_smarty_tpl->tpl_vars['manufacturer']->value['link_rewrite']), ENT_QUOTES, 'UTF-8', true);?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['manufacturer']->value['name'], ENT_QUOTES, 'UTF-8', true);?>
-</option>
-						<?php } ?>
-						</select>
-					</div>
-				</form>
-			<?php }?>
+				
 		<?php } else { ?>
 			<p><?php echo smartyTranslate(array('s'=>'No manufacturer','mod'=>'blockmanufacturer'),$_smarty_tpl);?>
 </p>

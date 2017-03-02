@@ -29,9 +29,9 @@
 	<div>
         <h4>{l s='Store Information' mod='blockcontactinfos'}</h4>
         <ul class="toggle-footer">
-            {if $blockcontactinfos_company != ''}
+            {if $blockcontactinfos_address != ''}
             	<li>
-            		<i class="icon-map-marker"></i>{$blockcontactinfos_company|escape:'html':'UTF-8'}{if $blockcontactinfos_address != ''}, {$blockcontactinfos_address|escape:'html':'UTF-8'}{/if}
+            		<i class="icon-map-marker"></i>{*{$blockcontactinfos_company|escape:'html':'UTF-8'}*}{if $blockcontactinfos_address != ''} {$blockcontactinfos_address|escape:'html':'UTF-8'}{/if}
             	</li>
             {/if}
             {if $blockcontactinfos_phone != ''}

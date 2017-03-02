@@ -1,32 +1,31 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 16:59:42
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:39:04
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\modules\blockcontactinfos\blockcontactinfos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:692458b5905ee77583-16821252%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:318258b882e8b6fe92-09590475%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'afac011ffd0de7b2429e504541b59214a782b464' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\modules\\blockcontactinfos\\blockcontactinfos.tpl',
-      1 => 1488293792,
+      1 => 1488376756,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '692458b5905ee77583-16821252',
+  'nocache_hash' => '318258b882e8b6fe92-09590475',
   'function' => 
   array (
   ),
   'variables' => 
   array (
-    'blockcontactinfos_company' => 0,
     'blockcontactinfos_address' => 0,
     'blockcontactinfos_phone' => 0,
     'blockcontactinfos_email' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b5905eebfaa6_10196789',
+  'unifunc' => 'content_58b882e8bbf373_17338820',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b5905eebfaa6_10196789')) {function content_58b5905eebfaa6_10196789($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'E:\\Webserver\\domains\\dieselpoint.loc\\tools\\smarty\\plugins\\function.mailto.php';
+<?php if ($_valid && !is_callable('content_58b882e8bbf373_17338820')) {function content_58b882e8bbf373_17338820($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'E:\\Webserver\\domains\\dieselpoint.loc\\tools\\smarty\\plugins\\function.mailto.php';
 ?>
 
 <!-- MODULE Block contact infos -->
@@ -35,10 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <h4><?php echo smartyTranslate(array('s'=>'Store Information','mod'=>'blockcontactinfos'),$_smarty_tpl);?>
 </h4>
         <ul class="toggle-footer">
-            <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company']->value!='') {?>
+            <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value!='') {?>
             	<li>
-            		<i class="icon-map-marker"></i><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value, ENT_QUOTES, 'UTF-8', true);?>
+            		<i class="icon-map-marker"></i><?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value!='') {?> <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address']->value, ENT_QUOTES, 'UTF-8', true);?>
 <?php }?>
             	</li>
             <?php }?>

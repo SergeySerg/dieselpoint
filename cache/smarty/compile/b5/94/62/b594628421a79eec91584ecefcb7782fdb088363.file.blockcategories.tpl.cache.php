@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-28 18:08:09
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:41:17
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\modules\blockcategories\blockcategories.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1291158b5a0695834f2-48608304%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2231658b8836d5afaa2-26055310%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b594628421a79eec91584ecefcb7782fdb088363' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\modules\\blockcategories\\blockcategories.tpl',
-      1 => 1488293792,
+      1 => 1488395296,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1291158b5a0695834f2-48608304',
+  'nocache_hash' => '2231658b8836d5afaa2-26055310',
   'function' => 
   array (
   ),
@@ -24,13 +24,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b5a0695d3188_93191650',
+  'unifunc' => 'content_58b8836d6a8d89_99193100',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b5a0695d3188_93191650')) {function content_58b5a0695d3188_93191650($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58b8836d6a8d89_99193100')) {function content_58b8836d6a8d89_99193100($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['blockCategTree']->value&&count($_smarty_tpl->tpl_vars['blockCategTree']->value['children'])) {?>
 <!-- Block categories module -->
 <div id="categories_block_left" class="block">
-	<h2 class="title_block">
+	<h2 class="title_block" style="margin-top: 2px">
 		<?php if (isset($_smarty_tpl->tpl_vars['currentCategory']->value)) {?>
 			<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['currentCategory']->value->name, ENT_QUOTES, 'UTF-8', true);?>
 

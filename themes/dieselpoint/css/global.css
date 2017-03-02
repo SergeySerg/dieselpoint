@@ -6671,7 +6671,7 @@ ul.footer_links {
       margin-left: 10px; }
 
 .content_sortPagiBar .sortPagiBar {
-  border-bottom: 1px solid #d6d4d4;
+ /* border-bottom: 1px solid #d6d4d4;*/
   clear: both; }
   .content_sortPagiBar .sortPagiBar #productsSortForm {
     float: left;
@@ -8567,5 +8567,11 @@ div.star.star_hover:after {
 
 .pointer-box {
   cursor: pointer; }
-
+.b1c {
+  margin-left: 18px;
+  width: 155px;
+  min-height: 46px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=global.css.map */
+/*Сastom style*/
