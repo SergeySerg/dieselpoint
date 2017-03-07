@@ -1,43 +1,39 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:39:04
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-07 21:11:19
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\modules\blockcategories\blockcategories.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:410058b882e8685883-42615603%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:840258bf05d78dec98-68692095%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b594628421a79eec91584ecefcb7782fdb088363' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\modules\\blockcategories\\blockcategories.tpl',
-      1 => 1488395296,
+      1 => 1488912801,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '410058b882e8685883-42615603',
+  'nocache_hash' => '840258bf05d78dec98-68692095',
   'function' => 
   array (
   ),
   'variables' => 
   array (
     'blockCategTree' => 0,
-    'currentCategory' => 0,
     'isDhtml' => 0,
     'child' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b882e8719716_91375890',
+  'unifunc' => 'content_58bf05d7919618_84182412',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b882e8719716_91375890')) {function content_58b882e8719716_91375890($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58bf05d7919618_84182412')) {function content_58bf05d7919618_84182412($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['blockCategTree']->value&&count($_smarty_tpl->tpl_vars['blockCategTree']->value['children'])) {?>
 <!-- Block categories module -->
 <div id="categories_block_left" class="block">
 	<h2 class="title_block" style="margin-top: 2px">
-		<?php if (isset($_smarty_tpl->tpl_vars['currentCategory']->value)) {?>
-			<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['currentCategory']->value->name, ENT_QUOTES, 'UTF-8', true);?>
 
-		<?php } else { ?>
 			<?php echo smartyTranslate(array('s'=>'Categories','mod'=>'blockcategories'),$_smarty_tpl);?>
 
-		<?php }?>
+
 	</h2>
 	<div class="block_content">
 		<ul class="tree <?php if ($_smarty_tpl->tpl_vars['isDhtml']->value) {?>dhtml<?php }?>">

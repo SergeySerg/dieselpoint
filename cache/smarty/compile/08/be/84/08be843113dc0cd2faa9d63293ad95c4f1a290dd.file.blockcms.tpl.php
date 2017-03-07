@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:39:04
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-07 21:11:19
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\modules\blockcms\blockcms.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:202558b882e8a25a10-78426296%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3076258bf05d7d37444-48335578%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '08be843113dc0cd2faa9d63293ad95c4f1a290dd' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\modules\\blockcms\\blockcms.tpl',
-      1 => 1488293792,
+      1 => 1488912801,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '202558b882e8a25a10-78426296',
+  'nocache_hash' => '3076258bf05d7d37444-48335578',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b882e8b4ed03_95671012',
+  'unifunc' => 'content_58bf05d7e4b027_20287042',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b882e8b4ed03_95671012')) {function content_58b882e8b4ed03_95671012($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58bf05d7e4b027_20287042')) {function content_58bf05d7e4b027_20287042($_smarty_tpl) {?>
 
 <?php if ($_smarty_tpl->tpl_vars['block']->value==1) {?>
 	<!-- Block CMS module -->
@@ -112,7 +112,7 @@ $_smarty_tpl->tpl_vars['cms_page']->_loop = true;
 	<!-- /Block CMS module -->
 <?php } else { ?>
 	<!-- Block CMS module footer -->
-	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+	<section class="footer-block col-xs-12 col-sm-4" id="block_various_links_footer">
 		<h4><?php echo smartyTranslate(array('s'=>'Information','mod'=>'blockcms'),$_smarty_tpl);?>
 </h4>
 		<ul class="toggle-footer">

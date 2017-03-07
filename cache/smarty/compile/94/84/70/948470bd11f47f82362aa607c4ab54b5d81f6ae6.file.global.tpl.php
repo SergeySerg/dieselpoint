@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:39:07
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-07 21:11:21
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\global.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2627558b882eb8e8e83-02232896%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1275258bf05d9383ae2-88062473%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '948470bd11f47f82362aa607c4ab54b5d81f6ae6' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\global.tpl',
-      1 => 1488293792,
+      1 => 1488491663,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2627558b882eb8e8e83-02232896',
+  'nocache_hash' => '1275258bf05d9383ae2-88062473',
   'function' => 
   array (
   ),
@@ -36,9 +36,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b882eb9871a7_08487542',
+  'unifunc' => 'content_58bf05d9403c53_21039273',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b882eb9871a7_08487542')) {function content_58b882eb9871a7_08487542($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58bf05d9403c53_21039273')) {function content_58bf05d9403c53_21039273($_smarty_tpl) {?>
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('isMobile'=>$_smarty_tpl->tpl_vars['mobile_device']->value),$_smarty_tpl);?>
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('baseDir'=>$_smarty_tpl->tpl_vars['content_dir']->value),$_smarty_tpl);?>
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('baseUri'=>$_smarty_tpl->tpl_vars['base_uri']->value),$_smarty_tpl);?>

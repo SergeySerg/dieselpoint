@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-03-02 22:39:04
+<?php /* Smarty version Smarty-3.1.19, created on 2017-03-07 21:11:19
          compiled from "E:\Webserver\domains\dieselpoint.loc\themes\dieselpoint\modules\blockmanufacturer\blockmanufacturer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2731558b882e88aea96-88045013%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:520958bf05d7a8c6d9-70075433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '76bd805506d90461d90ea1fee02a2569c841ce84' => 
     array (
       0 => 'E:\\Webserver\\domains\\dieselpoint.loc\\themes\\dieselpoint\\modules\\blockmanufacturer\\blockmanufacturer.tpl',
-      1 => 1488377369,
+      1 => 1488491664,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2731558b882e88aea96-88045013',
+  'nocache_hash' => '520958bf05d7a8c6d9-70075433',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58b882e890b675_58622940',
+  'unifunc' => 'content_58bf05d7ae4a43_52315909',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58b882e890b675_58622940')) {function content_58b882e890b675_58622940($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58bf05d7ae4a43_52315909')) {function content_58bf05d7ae4a43_52315909($_smarty_tpl) {?>
 
 <!-- Block manufacturers module -->
 <div id="manufacturers_block_left" class="block blockmanufacturer">
