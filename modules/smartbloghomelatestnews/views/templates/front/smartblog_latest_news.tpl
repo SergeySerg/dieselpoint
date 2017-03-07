@@ -8,7 +8,7 @@
                     {assign var="options" value=null}
                     {$options.id_post = $post.id}
                     {$options.slug = $post.link_rewrite}
-                    <div id="sds_blog_post" class="col-xs-12 col-sm-4 col-md-3">
+                    <div id="sds_blog_post" class="col-xs-12 col-sm-4 col-md-4">
                         <span class="news_module_image_holder">
                              <a href="{smartblog::GetSmartBlogLink('smartblog_post',$options)}"><img alt="{$post.title}" class="feat_img_small" src="{$modules_dir}smartblog/images/{$post.post_img}-home-default.jpg"></a>
                         </span>

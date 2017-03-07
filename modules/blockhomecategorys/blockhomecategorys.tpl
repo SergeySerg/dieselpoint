@@ -18,4 +18,5 @@
     </ul>
     <br class="clear"/>
   </div>
+	</div>
 {/if}
