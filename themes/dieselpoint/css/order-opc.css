@@ -65,3 +65,7 @@
   display: none; }
 
 /*# sourceMappingURL=order-opc.css.map */
+/*raund style*/
+#order-opc .title_block {
+  padding: 14px 5px 17px 20px;
+}

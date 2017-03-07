@@ -1,14 +1,14 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Поздоровляємо! 
+Congratulations! 
 
-Отримано нове замовлення у {shop_name}
-наступним покупцем: {firstname} {lastname} ({email}) 
+A new order was placed on {shop_name} by the following customer:
+{firstname} {lastname} ({email}) 
 
-ЗАМОВЛЕННЯ: {order_name} Розміщено {date}
+ORDER: {order_name} Placed on {date}
 
-ОПЛАТА: {payment} 		 
+PAYMENT: {payment} 		 
 
 АРТИКУЛ
 
@@ -30,7 +30,7 @@
 
 {total_discounts} 
 
-ПОДАРУНКОВА УПАКОВКА 
+GIFT-WRAPPING 
 
 {total_wrapping} 
 
@@ -38,11 +38,11 @@
 
 {total_shipping} 
 
-ВСЬОГО ПОДАТКІВ СПЛАЧЕНО 
+TOTAL TAX PAID 
 
 {total_tax_paid} 
 
-ВСЬОГО СПЛАЧЕНО 
+TOTAL PAID 
 
 {total_paid} 
 
@@ -54,6 +54,6 @@
 
 {message} 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

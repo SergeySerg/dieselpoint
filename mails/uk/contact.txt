@@ -1,16 +1,16 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Повідомлення від клієнта {shop_name} 
+Message from a {shop_name} customer 
 
-E-MAIL АДРЕСА КЛІЄНТА: {email}
+CUSTOMER E-MAIL ADDRESS: {email}
 
-ПОВІДОМЛЕННЯ КЛІЄНТА: {message}
+CUSTOMER MESSAGE: {message}
 
-ЗАМОВЛЕННЯ №: {order_name}
+ORDER ID: {order_name}
 
-ПРИКРІПЛЕНИЙ ФАЙЛ: {attached_file} 		 
+ATTACHED FILE: {attached_file} 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

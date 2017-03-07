@@ -1,11 +1,11 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Вітаємо, {name},
+Hi {name},
 
-Натисніть тут щоб побачити цей
-товар: {product} [/{product_link}] 
+Click here to view this item: {product}
+[{product_link}] 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

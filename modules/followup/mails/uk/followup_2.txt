@@ -1,21 +1,18 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname},
 
-Дякуємо за ваше замовлення у {shop_name}. 
+Thank you for your order at {shop_name}. 
 
-У якості вдячності ми хочемо дати вам
-знижку у розмірі {amount}% від вашого
-наступного замовлення! Дана
-пропозиція дійсна {days} днів, тому не
-втрачайте момент!
+As our way of saying thanks, we want to give you a discount of
+{amount}% off your next order! This offer is valid for {days} days, so
+do not waste a moment!
 
-ОСЬ ВАШ КУПОН: {voucher_num}
+HERE IS YOUR COUPON: {voucher_num}
 
-Введіть цей код у вашому кошику щоб
-отримати знижку. 		 
+Enter this code in your shopping cart to get your discount. 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockcart}prestashop>blockcart_c2e1362a9710a3dd86f937c2ea1f336d'] = 'Блок \"Кошик\"';
+$_MODULE['<{blockcart}prestashop>blockcart_c2e1362a9710a3dd86f937c2ea1f336d'] = 'Блок \\"Кошик\\"';
 $_MODULE['<{blockcart}prestashop>blockcart_e03093a5753b436ee1de63b6e3e1bd02'] = 'Додає блок, що містить кошик клієнта.';
 $_MODULE['<{blockcart}prestashop>blockcart_a21e5718d2a196280b729438933501c7'] = 'Ajax: Невірний вибір.';
 $_MODULE['<{blockcart}prestashop>blockcart_02c793e3df4632db20e4d6e146095d62'] = 'Будь ласка, заповніть поле "Товари для показу".';
@@ -28,7 +28,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_a85eba4c6c699122b2bb1387ea4813ad'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_068f80c7519d0528fb08e82137a72131'] = 'Товари';
 $_MODULE['<{blockcart}prestashop>blockcart_deb10517653c255364175796ace3553f'] = 'товар';
 $_MODULE['<{blockcart}prestashop>blockcart_9e65b51e82f2a9b9f72ebe3e083582bb'] = '(порожній)';
-$_MODULE['<{blockcart}prestashop>blockcart_0da4d96cad73748e2f608d31cfb3247c'] = 'Будь ласка, видаліть цей товар з мого кошика.';
 $_MODULE['<{blockcart}prestashop>blockcart_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Деталі товару';
 $_MODULE['<{blockcart}prestashop>blockcart_3d9e3bae9905a12dae384918ed117a26'] = 'Модифікація №%d:';
 $_MODULE['<{blockcart}prestashop>blockcart_09dc02ecbb078868a3a86dded030076d'] = 'Немає товарів';
@@ -50,8 +49,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_e5694b7726ceaf2f057e5f06cf86209e'] = '[1]%d[/1] товарів у кошику.';
 $_MODULE['<{blockcart}prestashop>blockcart_fc86c43dbffcadc193832a310f7a444a'] = '1 товар у кошику.';
 $_MODULE['<{blockcart}prestashop>blockcart_db205f01b4fd580fb5daa9072d96849d'] = 'Всього товарів на суму:';
-$_MODULE['<{blockcart}prestashop>blockcart_21034ae6d01a83e702839a72ba8a77b0'] = '(без ПДВ)';
-$_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(з ПДВ)';
 $_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Загальна вартість доставки:';
 $_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'Продовжити покупки';
 $_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Оформити замовлення';

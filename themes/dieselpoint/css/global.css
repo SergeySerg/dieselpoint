@@ -8567,11 +8567,48 @@ div.star.star_hover:after {
 
 .pointer-box {
   cursor: pointer; }
-.b1c {
-  margin-left: 18px;
-  width: 155px;
-  min-height: 46px;
-  border-radius: 5px;
-}
 /*# sourceMappingURL=global.css.map */
-/*Сastom style*/
+
+/*raund style*/
+.footer-container .container{
+  padding-bottom: 0;
+}
+.b1c {
+  display: block;
+  width: 155px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#order-detail-content .b1c {
+  float: right;
+  margin-top: 0;
+}
+.top-pagination-content div.pagination,
+.bottom-pagination-content div.pagination{
+  width: 100%;
+}
+.top-pagination-content div.pagination .showall,
+.bottom-pagination-content div.pagination .showall{
+  float: none;
+  margin: 8px 0;
+}
+.footer-container #footer #social_block{
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .top-pagination-content ul.pagination,
+  .bottom-pagination-content ul.pagination {
+    float: none;
+  }
+}
+@media (max-width: 767px) {
+  .footer-container #footer #social_block{
+    margin-top: 15px;
+  }
+  .b1c{
+    width: 170px;
+  }
+}

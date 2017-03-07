@@ -1,21 +1,19 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname},
 
-Ваше замовлення вже даставлене 
+Your order has been shipped 
 
-Ваше замовлення з артикулом {order_name}
-відправлено.
+Your order with the reference {order_name} has been shipped.
 
 Дякуємо за покупку у {shop_name}! 		 
 
-Ви можете переглянути замовлення і
-завантажити рахунок-фактуру в розділі
-"Мої замовлення" [/{history_url}] вашого
-клієнтського кабінету натиснувши "Мій
-Профіль" [/{my_account_url}] в нашому магазині. 
+You can review your order and download your invoice from the
+"Order history" [{history_url}] section of your
+customer account by clicking "My account"
+[{my_account_url}] on our shop. 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

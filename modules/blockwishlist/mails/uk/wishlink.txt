@@ -1,14 +1,13 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Вітаємо, 
+Hi, 
 
-{shop_name} запрошує вас відправити це
-посилання друзям, щоб вони могли
-бачити ваш список бажань: {wishlist}
+{shop_name} invites you to send this link to your friends, so they
+can see your wishlist: {wishlist}
 
-{message} [/{message}] 		 
+{message} [{message}] 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

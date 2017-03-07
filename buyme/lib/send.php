@@ -6,7 +6,7 @@
 
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
 // почта для уведомлений //несколько ящиков могут перечисляться через запятую
-$to = "vor.ser87@gmail.com";
+$to = "andrewlutsk88@gmail.com";
 
 $HTTP_HOST = parse_url('http://'.$_SERVER["HTTP_HOST"]); 
 $HTTP_HOST = str_replace(array("http://","www."),"", $HTTP_HOST['host']);

@@ -6,7 +6,6 @@
 jQuery.getScript(getScriptFolder("buyme.js")+"js/config.js", function(){
 	buyMe();
 });
-
 function getScriptFolder (e) { // find script folder
 	var scripts = document.getElementsByTagName("script");
 	for (var i = 0; i < scripts.length; i++) {

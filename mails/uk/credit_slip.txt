@@ -1,17 +1,16 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname}, 
 
-Для замовлення №{order_name} створено
-квитанцію про оплату на ваше ім'я. 
+We have generated a credit slip in your name for order with the
+reference {order_name}. 
 
-Ви можете переглянути накладні і
-завантажити рахунок-фактуру з розділу
-"Мої накладні" [/{history_url}] вашого акаунту
-натиснувши "Мій профіль" [/{my_account_url}] в
-нашому магазині. 
+You can review this credit slip and download your invoice from the
+"My credit slips" [{history_url}] section of your
+account by clicking "My account" [{my_account_url}]
+on our shop. 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

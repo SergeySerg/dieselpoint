@@ -1,15 +1,14 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname}, 
 
-{employee} хотів переслати цю дискусію
-вам. 
+{employee} wanted to forward this discussion to you. 
 
-ІСТОРІЯ ОБГОВОРЕННЯ: {messages}
+DISCUSSION HISTORY: {messages}
 
-{employee} додав "{comment}" 		 
+{employee} added "{comment}" 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

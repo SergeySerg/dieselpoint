@@ -1,26 +1,22 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname}, 
 
-Ми помітили, що під час вашого
-останнього відвідування {shop_name}, ви не
-завершили замовлення яке почали.
+We noticed that during your last visit on {shop_name}, you did not
+complete the order you had started.
 
-Ваш кошик був збережений, ви можете
-відновити замовлення, відвідавши наш
-магазин: {shop_url} [/{shop_url}]
+Your cart has been saved, you can resume your order by visiting our
+shop: {shop_url} [{shop_url}]
 
-В якості стимулу, ми можемо дати вам
-знижку {amount}% від вашого наступного
-замовлення! Дана пропозиція дійсна
-{days} днів, тому не втрачайте момент! 		 
+As an incentive, we can give you a discount of {amount}% off your
+next order! This offer is valid for {days} days, so do not waste a
+moment! 		 
 
-ОСЬ ВАШ КУПОН: {voucher_num}
+HERE IS YOUR COUPON: {voucher_num}
 
-Введіть цей код у вашому кошику щоб
-отримати знижку. 		 
+Enter this code in your shopping cart to get your discount. 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

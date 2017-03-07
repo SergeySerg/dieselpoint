@@ -394,3 +394,8 @@ Product list(Index page) Styles
   border: 1px solid #d6d4d4; }
 
 /*# sourceMappingURL=product_list.css.map */
+/*raund style*/
+ul.product_list.grid > li .product-container .product-image-container,
+ul.product_list.list > li .product-image-container{
+  padding: 0;
+}

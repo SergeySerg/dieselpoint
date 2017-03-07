@@ -3,9 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statsstock}prestashop>statsstock_96ca47f429c269b85e31be9fb17df6d4'] = 'Доступна кількість';
-$_MODULE['<{statsstock}prestashop>statsstock_7782fb19c81ec8a47e39f9c073b7da59'] = 'Додає вкладку, яка показує кількість доступних продуктів для продажу на панелі статистики.';
-$_MODULE['<{statsstock}prestashop>statsstock_c49b42f642c62f20a3640f20ca132840'] = 'Оцінка доступних обсягів для продажу';
 $_MODULE['<{statsstock}prestashop>statsstock_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Категорія';
 $_MODULE['<{statsstock}prestashop>statsstock_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Всі';
 $_MODULE['<{statsstock}prestashop>statsstock_1b2379801de373b6b563c347014fb34b'] = 'Ваш каталог порожній.';

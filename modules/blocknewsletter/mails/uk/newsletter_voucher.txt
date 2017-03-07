@@ -1,12 +1,11 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Вітаємо, 
+Hi, 
 
-У зв'язку з вашою підпискою на
-розсилку новин, ми раді запропонувати
-вам наступний купон: {discount} 
+Regarding your newsletter subscription, we are pleased to offer
+you the following voucher: {discount} 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

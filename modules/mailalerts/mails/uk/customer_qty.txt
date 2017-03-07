@@ -1,16 +1,15 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Вітаємо, 
+Hi, 
 
-Цей товар знову на складі.
+This item is once again in-stock.
 
-Ви можете перейти на сторінку товару
-за посиланням: {product} [/{product_link}]
+You can access the product page by clicking on the link: {product}
+[{product_link}]
 
-Ви можете зробити замовлення у нашому
-магазині прямо зараз. 		 
+You can order it right now from our online shop. 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

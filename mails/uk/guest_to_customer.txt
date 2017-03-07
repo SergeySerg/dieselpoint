@@ -1,22 +1,19 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname}, 
 
-Ваш гостьовий акаунт в {shop_name} був
-перетворений на акаунт клієнта. 
+Your guest account for {shop_name} has been transformed into a
+customer account. 
 
-E-MAIL АДРЕСА: {email}
+E-MAIL ADDRESS: {email}
 
-ПАРОЛЬ: {passwd} 		 
+PASSWORD: {passwd} 		 
 
-Будь ласка, будьте обережні коли
-ділитесь цими реєстраційними даними з
-іншими. 
+Please be careful when sharing these login details with others. 
 
-Ви можете увійти в свій клієнтський
-акаунт в нашому магазині: {shop_url} 
+You can access your customer account on our shop: {shop_url} 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

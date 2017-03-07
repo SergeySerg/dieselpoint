@@ -1,15 +1,13 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname}, 
 
-УВАГА: Ви отримали нове повідомлення
-журналу Панелі керування.
+WARNING: you have received a new log alert in your Back Office.
 
-Ви можете знайти їх у розідлі
-"ІНСТРУМЕНТИ" > "ЖУРНАЛИ" вашої Панелі
-керування. 		 
+You can check for it in the "TOOLS" > "LOGS" section of your Back
+Office. 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

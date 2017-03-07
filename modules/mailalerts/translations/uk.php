@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{mailalerts}prestashop>mailalerts-account_36c94bd456cf8796723ad09eac258aef'] = 'Керувати моїм профілем';
 $_MODULE['<{mailalerts}prestashop>mailalerts-account_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Мій Профіль';
 $_MODULE['<{mailalerts}prestashop>mailalerts-account_4edfd10d0bb5f51e0fd2327df608b5a8'] = 'Мої сповіщення';
 $_MODULE['<{mailalerts}prestashop>mailalerts-account_8bb23c2ae698681ebb650f43acb54dab'] = 'Немає поштових нагадувань';

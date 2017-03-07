@@ -1053,3 +1053,15 @@ Quick View Styles
   filter: none; }
 
 /*# sourceMappingURL=product.css.map */
+/*raund style*/
+.box-cart-bottom{
+  padding-top: 15px;
+}
+.box-info-product .exclusive:before{
+  display: none;
+}
+@media (max-width: 768px) {
+  #center_column.col-sm-9 .col-md-3 .box-info-product .exclusive {
+    margin: 0 auto;
+  }
+}

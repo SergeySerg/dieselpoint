@@ -1,22 +1,20 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Ваше повідомлення для служби
-підтримки клієнтів {shop_name} 
+Your message to {shop_name} Customer Service 
 
-Ваше повідомлення успішно
-відправлено.
+Your message has been sent successfully.
 
-ПОВІДОМЛЕННЯ: {message}
+MESSAGE: {message}
 
-ЗАМОВЛЕННЯ №: {order_name}
+ORDER ID: {order_name}
 
-ТОВАР: {product_name}
+PRODUCT: {product_name}
 
-ПРИКРІПЛЕНИЙ ФАЙЛ: {attached_file} 		 
+ATTACHED FILE: {attached_file} 		 
 
-Ми дамо відповідь якомога скоріше. 
+We will answer as soon as possible. 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

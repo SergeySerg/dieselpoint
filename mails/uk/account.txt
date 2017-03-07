@@ -1,5 +1,5 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname},
 
@@ -8,9 +8,9 @@
 
 Це дані вашої реєстрації:
 
-E-MAIL АДРЕСА: {email}
+E-MAIL ADDRESS: {email}
 
-ПАРОЛЬ: {passwd} 		 
+PASSWORD: {passwd} 		 
 
 Важливі правила безпеки:
 
@@ -29,8 +29,8 @@ E-MAIL АДРЕСА: {email}
 
 Тепер Ви можете здійснювати
 замовлення у нашому магазині: {shop_name}
-[/{shop_url}] 
+[{shop_url}] 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

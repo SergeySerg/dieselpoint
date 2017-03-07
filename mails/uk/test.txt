@@ -1,14 +1,12 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Привіт 
+Hello 
 
-Це ТЕСТОВИЙ Е-ЛИСТ від вашого
-магазину.
+This is a TEST E-MAIL from your shop.
 
-Якщо ви прочитали це — тест пройшов
-успішно!. 
+If you can read this, the test was successful!. 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

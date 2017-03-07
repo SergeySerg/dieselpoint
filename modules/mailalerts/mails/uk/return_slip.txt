@@ -1,16 +1,15 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
-Вітаємо, 
+Hi, 
 
-Ви отримали запит на нове
-повернення для {shop_name}. 
+You have received a new return request for {shop_name}. 
 
-Стан повернення 
+Return details 
 
-ЗАМОВЛЕННЯ: {order_name} Розміщене {date}
+ORDER: {order_name} Placed on {date}
 
-ПОКУПЕЦЬ: {firstname} {lastname}, ({email}) 
+CUSTOMER: {firstname} {lastname}, ({email}) 
 
 АРТИКУЛ
 
@@ -24,14 +23,14 @@
 
 {delivery_block_html} 		 
 
-Платіжна адреса
+Billing address
 
 {invoice_block_html} 
 
-Повідомлення клієнта: 
+Customer message: 
 
 {message} 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

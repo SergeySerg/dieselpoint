@@ -1,14 +1,14 @@
 
-[/{shop_url}] 
+[{shop_url}] 
 
 Привіт, {firstname} {lastname}, 
 
 Від вашого імені було здійснено нове
 замовлення. 
 
-Будь ласка, перейдіть на {order_link}
-[/{order_link}] щоб завершити оплату. 		 
+Please go on {order_link} [{order_link}] to finalize
+the payment. 		 
 
-{shop_name} [/{shop_url}] працює на PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
 

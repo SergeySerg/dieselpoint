@@ -27,7 +27,7 @@ $_MODULE['<{blockcategories}dieselpoint>blockcategories_e3cf5ac19407b1a62c6fccaf
 $_MODULE['<{blockcategories}dieselpoint>blockcategories_cf3fb1ff52ea1eed3347ac5401ee7f0c'] = 'По возрастанию';
 $_MODULE['<{blockcategories}dieselpoint>blockcategories_5f73e737cedf8f4ccf880473a7823005'] = 'Число столбцов в футере';
 $_MODULE['<{blockcategories}dieselpoint>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
-$_MODULE['<{blockcategories}dieselpoint>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
+$_MODULE['<{blockcategories}dieselpoint>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Модели';
 $_MODULE['<{blockcategories}dieselpoint>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
 $_MODULE['<{blockcategories}dieselpoint>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = 'В стандартном шаблоне эти изображения отображаются в верхнем горизонтальном меню, но только если эта категория относится первому уровню (подробную информацию смотрите в модуле \'Верхнее горизонтальное меню\').';
 $_MODULE['<{blockcategories}dieselpoint>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Миниатюры меню';
