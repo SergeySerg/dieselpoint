@@ -794,3 +794,21 @@ form#searchbox .button.button-small i {
     margin-bottom: 20px;
     padding: 15px;
 }
+/*raund style*/
+.sdsarticleHeader{
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+.sdstitle_block{
+    margin-bottom: 0;
+}
+.page-item-title h1{
+    font: 600 18px/22px "Open Sans", sans-serif;
+    color: #555454;
+    background: #f6f6f6;
+    border-top: 5px solid #333;
+    text-transform: uppercase;
+    padding: 14px 5px 17px 20px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}

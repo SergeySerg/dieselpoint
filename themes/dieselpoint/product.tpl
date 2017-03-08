@@ -290,7 +290,7 @@
                         {hook h="displayProductPriceBlock" product=$product type="after_price"}
 						<div class="clear"></div>
 					</div> <!-- end content_prices -->
-					<div class="product_attributes clearfix">
+					<div class="product_attributes clearfix" {if ($product->quantity <= 0)}style="display: none;"{/if}>
 						<!-- quantity wanted -->
 						{if !$PS_CATALOG_MODE}
 						<p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
@@ -361,7 +361,7 @@
 						{/if}
 					</div> <!-- end product_attributes -->
 					<div class="box-cart-bottom">
-						<input type="button" class="b1c" value="Оформить заказ">
+						<input type="button" class="b1c" value="{l s='Download'}">
 						<div{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || (isset($restricted_country_mode) && $restricted_country_mode) || $PS_CATALOG_MODE} class="unvisible"{/if}>
 							<p id="add_to_cart" class="buttons_bottom_block no-print">
 								<button type="submit" name="Submit" class="exclusive">

@@ -1056,6 +1056,7 @@ Quick View Styles
 /*raund style*/
 .box-cart-bottom{
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 .box-info-product .exclusive:before{
   display: none;

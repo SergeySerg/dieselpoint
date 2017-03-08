@@ -115,9 +115,9 @@ class smartblog extends Module
         Configuration::updateGlobalValue('smartdataformat', 'm/d/Y H:i:s');
         Configuration::updateGlobalValue('smartblogurlpattern', 2);
 
-        Configuration::updateGlobalValue('smartblogmetatitle', 'Smart Bolg Title');
-        Configuration::updateGlobalValue('smartblogmetakeyword', 'smart,blog,smartblog,prestashop blog,prestashop,blog');
-        Configuration::updateGlobalValue('smartblogmetadescrip', 'Prestashop powerfull blog site developing module. It has hundrade of extra plugins. This module developed by SmartDataSoft.com');
+        Configuration::updateGlobalValue('smartblogmetatitle', 'Dieselpoint статті');
+        Configuration::updateGlobalValue('smartblogmetakeyword', 'форсунки,топливные насосы,автозапчасти Луцк,купить форсунки');
+        Configuration::updateGlobalValue('smartblogmetadescrip', 'Купить форсунки или топливные насосы Вы можете у нас на сайте dieselpoint.com.ua');
         Configuration::updateGlobalValue('smartshowhomepost', 4);
         Configuration::updateGlobalValue('smartshowrelatedproduct', 5);
         Configuration::updateGlobalValue('smartshowrelatedproductpost', 5);

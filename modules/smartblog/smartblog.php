@@ -42,9 +42,9 @@ class smartblog extends Module {
             Configuration::updateGlobalValue('smartacceptcomment', '1'); 
             Configuration::updateGlobalValue('smartcustomcss', ''); 
             Configuration::updateGlobalValue('smartdisablecatimg','1'); 
-            Configuration::updateGlobalValue('smartblogmetatitle', 'Smart Bolg Title'); 
-            Configuration::updateGlobalValue('smartblogmetakeyword', 'smart,blog,smartblog,prestashop blog,prestashop,blog'); 
-            Configuration::updateGlobalValue('smartblogmetadescrip', 'Prestashop powerfull blog site developing module. It has hundrade of extra plugins. This module developed by SmartDataSoft.com'); 
+            Configuration::updateGlobalValue('smartblogmetatitle', 'Dieselpoint статті');
+            Configuration::updateGlobalValue('smartblogmetakeyword', 'форсунки,топливные насосы,автозапчасти Луцк,купить форсунки');
+            Configuration::updateGlobalValue('smartblogmetadescrip', 'Купить форсунки или топливные насосы Вы можете у нас на сайте dieselpoint.com.ua');
 			$this->addquickaccess();
         $langs = Language::getLanguages();
          if (!parent::install() || !$this->registerHook('displayHeader') || !$this->SmartHookInsert() 
