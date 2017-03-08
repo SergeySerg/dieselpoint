@@ -30,6 +30,43 @@
 				</li>
 				{/if}
 			{/foreach}
+
+			<li class="maintab">
+				<a href='{$base_dir}/admin870x9da7l/index.php?controller=AdminModules&token=54a91d53ad796cffc6e73d5dc19ec40e&configure=blocksocial&tab_module=front_office_features&module_name=blocksocial' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Редактор Соц. сетей</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin870x9da7l/index.php?controller=AdminModules&token=54a91d53ad796cffc6e73d5dc19ec40e&configure=blocklayered&tab_module=front_office_features&module_name=blocklayered&edit_filters_template=1&id_layered_filter=2' class="title" >
+					<i class="icon-AdminTools"></i>
+					<span>Фильтр категорий</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin870x9da7l/index.php?controller=AdminModules&token=54a91d53ad796cffc6e73d5dc19ec40e&configure=blockcontactinfos&tab_module=front_office_features&module_name=blockcontactinfos' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Изменить конт. телефон</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin870x9da7l/index.php?controller=AdminModules&token=54a91d53ad796cffc6e73d5dc19ec40e&configure=homeslider&tab_module=front_office_features&module_name=homeslider' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Редактор слайдера</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin870x9da7l/index.php?controller=AdminCmsContent&token=2c163c7527a732fad25a44fcca9377da' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Редактор страниц</span>
+				</a>
+			</li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin870x9da7l/index.php?controller=AdminCurrencies&token=9769d02d41f682dd6178a1e31616861d' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Редактор валют</span>
+				</a>
+			</li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>
