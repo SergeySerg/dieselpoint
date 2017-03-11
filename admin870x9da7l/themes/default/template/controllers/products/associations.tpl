@@ -58,7 +58,7 @@
 			</select>
 		</div>
 	</div>
-	<div class="form-group">
+	<div class="form-group" hidden>
 		<label class="control-label col-lg-3" for="product_autocomplete_input">
 			<span class="label-tooltip" data-toggle="tooltip"
 			title="{l s='You can indicate existing products as accessories for this product.'}{l s='Start by typing the first letters of the product\'s name, then select the product from the drop-down list.'}{l s='Do not forget to save the product afterwards!'}">
