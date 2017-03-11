@@ -139,7 +139,7 @@ $(document).ready(function () {
 			</div>
 		</div>
 	</div>
-	<div class="form-group">
+	<div class="form-group" style="display: none;">
 		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="id_tax_rules_group" type="default"}</span></div>
 		<label class="control-label col-lg-2" for="id_tax_rules_group">
 			{l s='Tax rule:'}
@@ -203,15 +203,15 @@ $(document).ready(function () {
 		{if isset($pack) && $pack->isPack($product->id)}<p class="col-lg-9 col-lg-offset-3 help-block">{l s='The sum of prices of the products in the pack is %s%s%s' sprintf=[$currency->prefix,{toolsConvertPrice price=$pack->noPackPrice($product->id)|string_format:$priceDisplayPrecisionFormat},$currency->suffix]}</p>{/if}
 	</div>
 
-	<div class="form-group">
+	<div class="form-group" hidden>
 		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="unit_price" type="unit_price"}</span></div>
 		<label class="control-label col-lg-2" for="unit_price">
 			<span class="label-tooltip" data-toggle="tooltip" title="{l s='When selling a pack of items, you can indicate the unit price for each item of the pack. For instance, "per bottle" or "per pound".'}">{l s='Unit price (tax excl.)'}</span>
 		</label>
 		<div class="col-lg-4">
 			<div class="input-group">
-				<span class="input-group-addon">{$currency->prefix}{$currency->suffix}</span>
-				<input id="unit_price" name="unit_price" type="text" value="{$unit_price|string_format:'%.6f'}" maxlength="27" onkeyup="if (isArrowKey(event)) return ;this.value = this.value.replace(/,/g, '.'); unitPriceWithTax('unit');"/>
+
+				<input id="unit_price" name="unit_price" type="hidden" value="" maxlength="27" onkeyup="if (isArrowKey(event)) return ;this.value = this.value.replace(/,/g, '.'); unitPriceWithTax('unit');"/>
 				<span class="input-group-addon">{l s='per'}</span>
 				<input id="unity" name="unity" type="text" value="{$product->unity|htmlentitiesUTF8}"  maxlength="255" onkeyup="if (isArrowKey(event)) return ;unitySecond();" onchange="unitySecond();"/>
 			</div>
@@ -270,7 +270,7 @@ $(document).ready(function () {
 	</div>
 </div>
 {if isset($specificPriceModificationForm)}
-<div class="panel">
+<div class="panel" hidden>
 	<h3>{l s='Specific prices'}</h3>
 	<div class="alert alert-info">
 		{l s='You can set specific prices for clients belonging to different groups, different countries, etc.'}
