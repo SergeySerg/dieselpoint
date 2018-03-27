@@ -8325,6 +8325,10 @@ div.star.star_hover:after {
 .blockcategories_footer ul ul {
   display: none !important; }
 
+.blockcategories_footer .category_footer .list{
+  height: 100px;
+  overflow-y: scroll; }
+
 .form-group.form-error input, .form-group.form-error textarea {
   border: 1px solid #f13340;
   color: #f13340;
