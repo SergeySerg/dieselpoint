@@ -68,6 +68,7 @@ class Blocktopmenu extends Module
         if (!parent::install() ||
             !$this->registerHook('header') ||
             !$this->registerHook('displayTop') ||
+            !$this->registerHook('displayHome') ||
             !$this->registerHook('actionObjectCategoryUpdateAfter') ||
             !$this->registerHook('actionObjectCategoryDeleteAfter') ||
             !$this->registerHook('actionObjectCategoryAddAfter') ||
@@ -740,6 +741,11 @@ class Blocktopmenu extends Module
 
         $html = $this->display(__FILE__, 'blocktopmenu.tpl', $this->getCacheId());
         return $html;
+    }
+
+    public function hookDisplayHome($params)
+    {
+        return $this->hookDisplayTop($params);
     }
 
     public function hookDisplayNav($params)
