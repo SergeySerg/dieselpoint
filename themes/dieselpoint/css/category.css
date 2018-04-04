@@ -77,5 +77,11 @@
 /*# sourceMappingURL=category.css.map */
 /*raund style*/
 #subcategories ul li{
+  width: 100px;
   height: auto;
-}
+  max-height: 115px;
+  margin: 0 0 13px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+  #subcategories ul li a img{
+    max-width: 100px;}
