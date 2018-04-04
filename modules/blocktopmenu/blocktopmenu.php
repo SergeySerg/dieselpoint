@@ -596,6 +596,7 @@ class Blocktopmenu extends Module
         $html = '';
 
         foreach ($categories as $key => $category) {
+            //print_r($category);
             if ($category['level_depth'] > 1) {
                 $cat = new Category($category['id_category']);
                 $link = Tools::HtmlEntitiesUTF8($cat->getLink());
@@ -611,7 +612,38 @@ class Blocktopmenu extends Module
             $html .= '<li'.(($this->page_name == 'category'
                 && (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
             $html .= '<a href="'.$link.'" title="'.$category['name'].'">'.$category['name'].'</a>';
+            $files = scandir(_PS_CAT_IMG_DIR_);
+            //print_r($files);
 
+
+                foreach ($files as $file) {
+                    //print_r($category['id_category']);
+                    if ($category['id_category'] .'.jpg' == $file) {
+                        //die('тут');
+                        $html .= '<div><img src="'.$this->context->link->getMediaLink(_THEME_CAT_DIR_.$file)
+                            .'" alt="'.Tools::SafeOutput($category['name']).'" title="'
+                            .Tools::SafeOutput($category['name']).'" class="imgm" /></div>';
+                    }
+                }
+
+                //$html .= '</li>';
+
+//            $html .= '<div><img src="'.$this->context->link->getMediaLink(_THEME_CAT_DIR_.$file)
+//                            .'" alt="'.Tools::SafeOutput($category['name']).'" title="'
+//                            .Tools::SafeOutput($category['name']).'" class="imgm" /></div>';
+//            if (count(preg_grep('/^'.$category['id_category'].'-([0-9])?_thumb.jpg/i', $files)) > 0) {
+//                $html .= '<li class="category-thumbnail">';
+//
+//                foreach ($files as $file) {
+//                    if (preg_match('/^'.$category['id_category'].'-([0-9])?_thumb.jpg/i', $file) === 1) {
+//                        $html .= '<div><img src="'.$this->context->link->getMediaLink(_THEME_CAT_DIR_.$file)
+//                            .'" alt="'.Tools::SafeOutput($category['name']).'" title="'
+//                            .Tools::SafeOutput($category['name']).'" class="imgm" /></div>';
+//                    }
+//                }
+//
+//                $html .= '</li>';
+//            }
             if (isset($category['children']) && !empty($category['children'])) {
                 $html .= '<ul>';
                 $html .= $this->generateCategoriesMenu($category['children'], 1);

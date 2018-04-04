@@ -39,15 +39,17 @@ class BlockHomecategorys extends Module
         
 	public function hookDisplayHome($params)
 	{
-            $categoryRoot = new Category(Configuration::get('PS_HOME_CATEGORY'),$this->context->language->id,$this->context->shop->id);
-            $categoriesHome = $categoryRoot->getSubCategories($this->context->language->id);
-            
-            $this->smarty->assign(array(
-                'subcategories' => $categoriesHome,
-                'homeSize' => Image::getSize('medium_default')
-            ));
-            
-            return $this->display(__FILE__, 'blockhomecategorys.tpl');
+		$categoryRoot = new Category(Configuration::get('PS_HOME_CATEGORY'),$this->context->language->id,$this->context->shop->id);
+		$categoriesHome = $categoryRoot->getSubCategories($this->context->language->id);
+		$categoriesHomeWithHidden = $categoryRoot->getSubCategoriesForIndex($this->context->language->id);
+		//print_r($categoriesHomeWithHidden);
+		$this->smarty->assign(array(
+			'subcategories' => $categoriesHome,
+			'subcategoriesHidden' => $categoriesHomeWithHidden,
+			'homeSize' => Image::getSize('medium_default')
+		));
+
+		return $this->display(__FILE__, 'blockhomecategorys.tpl');
 	}
 
 }
