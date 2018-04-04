@@ -1,7 +1,8 @@
 {if isset($subcategories)}
   {*<h2>{l s='Categorys' mod='blockhomecategorys'}</h2>*}
 
-  <div id="subcategories">
+  <div id="subcategories" class="block clearfix">
+	<h2 class="title_block">Поиск запчасти по маркам автомобилей</h2> 
     <ul class="inline_list">
       {foreach from=$subcategories item=subcategory}
 	  <li class="clearfix">
