@@ -89,6 +89,15 @@ class AdminCategoriesControllerCore extends AdminController
                 'align' => 'center',
                 'ajax' => true,
                 'orderby' => false
+            ),
+            'active_in_homepage' => array(
+                'title' => $this->l('Displayed in_homepage'),
+                'active' => 'status',
+                'type' => 'bool',
+                'class' => 'fixed-width-xs',
+                'align' => 'center',
+                //'ajax' => true,
+                'orderby' => false
             )
         );
 
@@ -505,6 +514,25 @@ class AdminCategoriesControllerCore extends AdminController
                         ),
                         array(
                             'id' => 'active_off',
+                            'value' => 0,
+                            'label' => $this->l('Disabled')
+                        )
+                    )
+                ),
+                array(
+                    'type' => 'switch',
+                    'label' => $this->l('Displayed in homepage'),
+                    'name' => 'active_in_homepage',
+                    'required' => false,
+                    'is_bool' => true,
+                    'values' => array(
+                        array(
+                            'id' => 'active_on1',
+                            'value' => 1,
+                            'label' => $this->l('Enabled')
+                        ),
+                        array(
+                            'id' => 'active_off1',
                             'value' => 0,
                             'label' => $this->l('Disabled')
                         )

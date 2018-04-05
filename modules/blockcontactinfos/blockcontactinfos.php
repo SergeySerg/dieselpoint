@@ -27,13 +27,14 @@
 
 if (!defined('_CAN_LOAD_FILES_'))
 	exit;
-	
+
 class Blockcontactinfos extends Module
 {
 	protected static $contact_fields = array(
 		'BLOCKCONTACTINFOS_COMPANY',
 		'BLOCKCONTACTINFOS_ADDRESS',
 		'BLOCKCONTACTINFOS_PHONE',
+		'BLOCKCONTACTINFOS_PHONE2',
 		'BLOCKCONTACTINFOS_EMAIL',
 	);
 
@@ -45,7 +46,7 @@ class Blockcontactinfos extends Module
 		$this->version = '1.2.1';
 
 		$this->bootstrap = true;
-		parent::__construct();	
+		parent::__construct();
 
 		$this->displayName = $this->l('Contact information block');
 		$this->description = $this->l('This module will allow you to display your e-store\'s contact information in a customizable block.');
@@ -57,9 +58,10 @@ class Blockcontactinfos extends Module
 		Configuration::updateValue('BLOCKCONTACTINFOS_COMPANY', Configuration::get('PS_SHOP_NAME'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_ADDRESS', trim(preg_replace('/ +/', ' ', Configuration::get('PS_SHOP_ADDR1').' '.Configuration::get('PS_SHOP_ADDR2')."\n".Configuration::get('PS_SHOP_CODE').' '.Configuration::get('PS_SHOP_CITY')."\n".Country::getNameById(Configuration::get('PS_LANG_DEFAULT'), Configuration::get('PS_SHOP_COUNTRY_ID')))));
 		Configuration::updateValue('BLOCKCONTACTINFOS_PHONE', Configuration::get('PS_SHOP_PHONE'));
+		Configuration::updateValue('BLOCKCONTACTINFOS_PHONE2', Configuration::get('PS_SHOP_PHONE2'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL', Configuration::get('PS_SHOP_EMAIL'));
 		$this->_clearCache('blockcontactinfos.tpl');
-		return (parent::install() && $this->registerHook('header') && $this->registerHook('footer'));
+		return (parent::install() && $this->registerHook('header') && $this->registerHook('displayTop') && $this->registerHook('footer'));
 	}
 
 	public function uninstall()
@@ -73,7 +75,7 @@ class Blockcontactinfos extends Module
 	{
 		$html = '';
 		if (Tools::isSubmit('submitModule'))
-		{	
+		{
 			foreach (Blockcontactinfos::$contact_fields as $field)
 				Configuration::updateValue($field, Tools::getValue($field));
 			$this->_clearCache('blockcontactinfos.tpl');
@@ -87,15 +89,23 @@ class Blockcontactinfos extends Module
 	{
 		$this->context->controller->addCSS(($this->_path).'blockcontactinfos.css', 'all');
 	}
-	
+
 	public function hookFooter($params)
-	{	
+	{
 		if (!$this->isCached('blockcontactinfos.tpl', $this->getCacheId()))
 			foreach (Blockcontactinfos::$contact_fields as $field)
 				$this->smarty->assign(strtolower($field), Configuration::get($field));
 		return $this->display(__FILE__, 'blockcontactinfos.tpl', $this->getCacheId());
 	}
-	
+
+	public function hookDisplayTop($params)
+	{
+		if (!$this->isCached('blockcontactinfos.tpl', $this->getCacheId()))
+			foreach (Blockcontactinfos::$contact_fields as $field)
+				$this->smarty->assign(strtolower($field), Configuration::get($field));
+		return $this->display(__FILE__, 'blockcontactinfos.tpl', $this->getCacheId());
+	}
+
 	public function renderForm()
 	{
 		$fields_form = array(
@@ -122,6 +132,11 @@ class Blockcontactinfos extends Module
 					),
 					array(
 						'type' => 'text',
+						'label' => $this->l('Phone number'),
+						'name' => 'BLOCKCONTACTINFOS_PHONE2',
+					),
+					array(
+						'type' => 'text',
 						'label' => $this->l('Email'),
 						'name' => 'BLOCKCONTACTINFOS_EMAIL',
 					),
@@ -131,7 +146,7 @@ class Blockcontactinfos extends Module
 				)
 			),
 		);
-		
+
 		$helper = new HelperForm();
 		$helper->show_toolbar = false;
 		$helper->table =  $this->table;

@@ -37,6 +37,9 @@ class CategoryCore extends ObjectModel
     /** @var bool Status for display */
     public $active = 1;
 
+    /** @var bool Status for display */
+    public $active_in_homepage = 0;
+
     /** @var  int category position */
     public $position;
 
@@ -99,6 +102,7 @@ class CategoryCore extends ObjectModel
             'nright' =>            array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'level_depth' =>        array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'active' =>            array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true),
+            'active_in_homepage' =>   array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true),
             'id_parent' =>            array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'),
             'id_shop_default' =>    array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'),
             'is_root_category' =>    array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
@@ -651,7 +655,7 @@ class CategoryCore extends ObjectModel
 		'.Shop::addSqlAssociation('category', 'c').'
 		LEFT JOIN `'._DB_PREFIX_.'category_lang` cl ON (c.`id_category` = cl.`id_category` AND `id_lang` = '.(int)$id_lang.' '.Shop::addSqlRestrictionOnLang('cl').')
 		'.$sql_groups_join.'
-		WHERE `id_parent` = '.(int)$this->id.'
+		WHERE `active_in_homepage` = 0 AND `id_parent` = '.(int)$this->id.'
 		'.($active ? 'AND `active` = 1' : '').'
 		'.$sql_groups_where.'
 		GROUP BY c.`id_category`
@@ -663,9 +667,47 @@ class CategoryCore extends ObjectModel
             $row['id_image'] = (Tools::file_exists_cache(_PS_CAT_IMG_DIR_.(int)$row['id_category'].'.jpg') || Tools::file_exists_cache(_PS_CAT_IMG_DIR_.(int)$row['id_category'].'_thumb.jpg')) ? (int)$row['id_category'] : Language::getIsoById($id_lang).'-default';
             $row['legend'] = 'no picture';
         }
+        //print_r($result);
         return $result;
     }
 
+/** Return current category childs
+*
+* @param int $id_lang Language ID
+* @param bool $active return only active categories
+* @return array Categories
+*/
+    public function getSubCategoriesForIndex($id_lang, $active = true)
+    {
+        $sql_groups_where = '';
+        $sql_groups_join = '';
+        if (Group::isFeatureActive()) {
+            $sql_groups_join = 'LEFT JOIN `'._DB_PREFIX_.'category_group` cg ON (cg.`id_category` = c.`id_category`)';
+            $groups = FrontController::getCurrentCustomerGroups();
+            $sql_groups_where = 'AND cg.`id_group` '.(count($groups) ? 'IN ('.implode(',', $groups).')' : '='.(int)Group::getCurrent()->id);
+        }
+
+        $result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS('
+		SELECT c.*, cl.id_lang, cl.name, cl.description, cl.link_rewrite, cl.meta_title, cl.meta_keywords, cl.meta_description
+		FROM `'._DB_PREFIX_.'category` c
+		'.Shop::addSqlAssociation('category', 'c').'
+		LEFT JOIN `'._DB_PREFIX_.'category_lang` cl ON (c.`id_category` = cl.`id_category` AND `id_lang` = '.(int)$id_lang.' '.Shop::addSqlRestrictionOnLang('cl').')
+		'.$sql_groups_join.'
+		WHERE `active_in_homepage` = 1 AND `id_parent` = '.(int)$this->id.'
+		'.($active ? 'AND `active` = 1' : '').'
+		'.$sql_groups_where.'
+		GROUP BY c.`id_category`
+		ORDER BY `level_depth` ASC, category_shop.`position` ASC');
+
+        $formated_medium = ImageType::getFormatedName('medium');
+
+        foreach ($result as &$row) {
+            $row['id_image'] = (Tools::file_exists_cache(_PS_CAT_IMG_DIR_.(int)$row['id_category'].'.jpg') || Tools::file_exists_cache(_PS_CAT_IMG_DIR_.(int)$row['id_category'].'_thumb.jpg')) ? (int)$row['id_category'] : Language::getIsoById($id_lang).'-default';
+            $row['legend'] = 'no picture';
+        }
+        //print_r($result);
+        return $result;
+    }
     /**
      * Returns category products
      *
