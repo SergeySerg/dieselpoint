@@ -16,3 +16,4 @@ $_MODULE['<{blockcmsinfo}dieselpoint>blockcmsinfo_6fcdef6ca2bb47a0cf61cd41ccf274
 $_MODULE['<{blockcmsinfo}dieselpoint>blockcmsinfo_9f82518d468b9fee614fcc92f76bb163'] = 'Магазин';
 $_MODULE['<{blockcmsinfo}dieselpoint>blockcmsinfo_56425383198d22fc8bb296bcca26cecf'] = 'Содержимое';
 $_MODULE['<{blockcmsinfo}dieselpoint>blockcmsinfo_ef61fb324d729c341ea8ab9901e23566'] = 'Добавить';
+$_MODULE['<{blockcmsinfo}dieselpoint>blockcmsinfo_38d7015215ba1495fa353aaa20083428'] = 'ПОИСК ЗАПЧАСТИ ПО МАРКАМ АВТОМОБИЛЕЙ';

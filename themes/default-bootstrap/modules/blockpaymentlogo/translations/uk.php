@@ -1,0 +1,10 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockpaymentlogo}default-bootstrap>blockpaymentlogo_3fd11fa0ede1bd0ace9b3fcdbf6a71c9'] = 'Додає блок у якому відображатимуться всі логотипи ваших платіжних систем.';
+$_MODULE['<{blockpaymentlogo}default-bootstrap>blockpaymentlogo_efc226b17e0532afff43be870bff0de7'] = 'Установки оновлені';
+$_MODULE['<{blockpaymentlogo}default-bootstrap>blockpaymentlogo_5c5e5371da7ab2c28d1af066a1a1cc0d'] = 'Немає сторінки CMS';
+$_MODULE['<{blockpaymentlogo}default-bootstrap>blockpaymentlogo_f4f70727dc34561dfde1a3c529b6205c'] = 'Налаштування';
+$_MODULE['<{blockpaymentlogo}default-bootstrap>blockpaymentlogo_829cb250498661a9f98a58dc670a9675'] = 'Сторінка на якій буде показаний блок';
+$_MODULE['<{blockpaymentlogo}default-bootstrap>blockpaymentlogo_c9cc8cce247e49bae79f15173ce97354'] = 'Зберегти';
