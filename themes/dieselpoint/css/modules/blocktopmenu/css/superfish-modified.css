@@ -239,3 +239,39 @@ ul.sf-menu li li li.sfHover ul {
   padding-right: 0; }
 
 /*# sourceMappingURL=superfish-modified.css.map */
+
+/* raund fix */
+
+.sf-contener {
+  float: none;}
+
+.sf-menu {
+  border-bottom: none;
+  background: inherit; }
+  
+  .sf-menu > li{
+    position: relative;
+    width: 32%;
+    height: 294px;
+    margin-left: 2%;
+    border-right: none;}
+    .sf-menu > li:first-child{
+      margin-left: 0;}
+    .sf-menu > li > a{
+      font: 600 16px/22px "Open Sans", sans-serif;
+      color: #555454;
+      background: #f6f6f6;
+      border-top: 5px solid #333;
+      border-bottom: none;
+      text-transform: uppercase;
+      padding: 14px 5px 17px 20px;
+      margin-bottom: 20px; }
+    .sf-menu > li > div img{
+      display: block;
+      max-width: 100%;
+    margin: 0 auto; }
+    .sf-menu > li > ul > li {
+      float: none;
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 10px;}
