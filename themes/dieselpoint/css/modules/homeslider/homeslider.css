@@ -126,3 +126,9 @@
   background: #333; }
 
 /*# sourceMappingURL=homeslider.css.map */
+
+/* adaptive */
+#homepage-slider {
+  padding-left: 15px;}
+.bx-controls{
+  display: none;} 
