@@ -23,8 +23,7 @@ class BlockHomecategorys extends Module
 
 		$this->displayName = $this->l('Categories block');
 		$this->description = $this->l('Adds a block categories to Homepage.');
-		$this->displayTitle = $this->l('Title');
-		$this->l('My new text');
+		$this->l('Title');
 	}
 
 	function install()
