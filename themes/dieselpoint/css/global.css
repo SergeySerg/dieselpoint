@@ -8574,6 +8574,8 @@ div.star.star_hover:after {
 /*# sourceMappingURL=global.css.map */
 
 /*raund style*/
+header{
+  padding-bottom: 0;}
 #cart_title,
 .page-heading.product-listing{
   font: 600 18px/22px "Open Sans", sans-serif;
