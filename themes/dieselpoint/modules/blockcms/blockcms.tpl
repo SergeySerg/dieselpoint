@@ -28,9 +28,10 @@
 	{foreach from=$cms_titles key=cms_key item=cms_title}
 		<section id="informations_block_left_{$cms_key}" class="block informations_block_left">
 			<p class="title_block">
-				<a href="{$cms_title.category_link|escape:'html':'UTF-8'}">
+				{l s='Information' mod='blockcms'}
+				{* <a href="{$cms_title.category_link|escape:'html':'UTF-8'}">
 					{if !empty($cms_title.name)}{$cms_title.name}{else}{$cms_title.category_name}{/if}
-				</a>
+				</a> *}
 			</p>
 			<div class="block_content list-block">
 				<ul>

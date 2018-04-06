@@ -79,11 +79,11 @@
 #subcategories ul{
   margin: 0 0 0 -10px;}
   #subcategories ul li{
-    width: 100px;
+    width: 78px;
     height: auto;
-    max-height: 115px;
+    max-height: 94px;
     margin: 0 0 13px 10px;
     overflow: hidden;
     text-overflow: ellipsis;}
     #subcategories ul li a img{
-      max-width: 100px;}
+      max-width: 100%;}

@@ -8574,6 +8574,8 @@ div.star.star_hover:after {
 /*# sourceMappingURL=global.css.map */
 
 /*raund style*/
+header{
+  padding-bottom: 0;}
 #cart_title,
 .page-heading.product-listing{
   font: 600 18px/22px "Open Sans", sans-serif;
@@ -8616,6 +8618,14 @@ div.star.star_hover:after {
 }
 .footer-container #footer #social_block{
   width: 100%;
+}
+#left_column #sds_blog_post .sds_post_title{
+  margin-bottom: 5px;
+}
+#categories_block_left ul.tree li:nth-last-child(1),
+#categories_block_left ul.tree li:nth-last-child(2),
+#categories_block_left ul.tree li:nth-last-child(3){
+  display: none;
 }
 @media (max-width: 991px) {
   .top-pagination-content ul.pagination,

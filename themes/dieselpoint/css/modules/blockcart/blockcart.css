@@ -451,3 +451,7 @@
     overflow: hidden; }
 
 /*# sourceMappingURL=blockcart.css.map */
+
+/* adaptive */
+#header .shopping_cart {
+  padding-top: 0; }
