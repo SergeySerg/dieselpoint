@@ -8622,6 +8622,11 @@ header{
 #left_column #sds_blog_post .sds_post_title{
   margin-bottom: 5px;
 }
+#categories_block_left ul.tree li:nth-last-child(1),
+#categories_block_left ul.tree li:nth-last-child(2),
+#categories_block_left ul.tree li:nth-last-child(3){
+  display: none;
+}
 @media (max-width: 991px) {
   .top-pagination-content ul.pagination,
   .bottom-pagination-content ul.pagination {
