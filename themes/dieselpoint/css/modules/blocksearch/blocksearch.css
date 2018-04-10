@@ -68,3 +68,9 @@ form#searchbox {
 /* adaptive */
 #search_block_top {
   padding-top: 0; }
+
+@media (max-width: 767px) {
+  #search_block_top #search_query_top {
+    margin-bottom: 15px;
+  }
+}

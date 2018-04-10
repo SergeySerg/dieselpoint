@@ -8640,4 +8640,9 @@ header{
   .b1c{
     width: 170px;
   }
+  .block h4.sds_post_title:after,
+  .sf-menu .menu-mobile-grover:after,
+  #subcategories h2.title_block:after{
+    display: none;
+  }
 }

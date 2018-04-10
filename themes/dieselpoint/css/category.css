@@ -87,3 +87,14 @@
     text-overflow: ellipsis;}
     #subcategories ul li a img{
       max-width: 100%;}
+
+@media (max-width: 767px) {
+  #subcategories ul li {
+    width: 140px;
+    height: auto;
+    max-height: 140px;
+    margin: 0 0 13px 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

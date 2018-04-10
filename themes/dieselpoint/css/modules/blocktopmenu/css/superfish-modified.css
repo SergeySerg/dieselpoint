@@ -292,4 +292,34 @@ ul.sf-menu li li li.sfHover ul {
         .sf-menu > li > ul > li > a:hover{
           text-decoration: underline;
         }
-        
+       
+@media (max-width: 992px) {
+  .sf-menu > li > a {
+    font: 600 13px/22px "Open Sans", sans-serif;
+    padding: 14px 0px 17px 5px;
+    text-align: center;
+  }
+  .sf-menu > li {
+    height: 312px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sf-menu {
+    margin-top: 20px;} 
+  .sf-menu > li {
+    width: 100%;
+    margin-left: 0;
+  }
+  .cat-title {
+    border-bottom: 0;
+    border-top: 5px solid #333;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 479px){
+  .sf-menu > li > ul > li {
+    padding-bottom: 5px;
+  }
+}
